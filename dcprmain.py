@@ -25,7 +25,7 @@ L0.place(y=0,x=275)
  #frame 2
 f2=Frame(wn,bg="#babdcc",height="670",width="1113",bd=10, relief=RIDGE)
 f2.place(y=102,x=1)
-img001=PhotoImage(file="C:\\Users\\adity\\Desktop\\doctor project\\doct2.png")
+img001=PhotoImage(file="images/doct2.png")
 img1=Label(f2,image=img001)
 img1.place(height="650",width="1094",x=0,y=0)
 

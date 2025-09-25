@@ -28,7 +28,7 @@ L1.place(y=0,x=375)
 f2=Frame(wn,bg="lightskyblue",height="670",width="566.5",bd=10, relief=RIDGE)
 f2.place(y=102,x=1)
 #1img use karna onty png
-img001=PhotoImage(file="D:\\python all programs\\python gui\\F22.png")
+img001=PhotoImage(file="images/doct3.png")  # Updated path - using available image
 img1=Label(f2,image=img001)
 img1.place(height="650",width="547",x=0,y=0)
 
@@ -36,7 +36,7 @@ img1.place(height="650",width="547",x=0,y=0)
 f3=Frame(wn,bg="lightskyblue",height="150",width="398",bd=10, relief=RIDGE)
 f3.place(y=102,x=568.5)
 #1img use karna onty png
-img0001=PhotoImage(file="D:\\python all programs\\python gui\\face2.png")
+img0001=PhotoImage(file="images/docmemb.png")  # Updated path - using available image
 img02=Label(f3,image=img0001)
 img02.place(height="130",width="378",x=-1,y=0)
 f4=Frame(wn,bg="lightskyblue",height="289.5",width="398",bd=10, relief=RIDGE)
@@ -57,14 +57,14 @@ bt2.place(y=190,x=105)
 f5=Frame(wn,bg="lightskyblue",height="228",width="398",bd=10, relief=RIDGE)
 f5.place(y=544,x=568)
 #1img use karna onty png
-imga01=PhotoImage(file="D:\\python all programs\\python gui\\pt1.png")
+imga01=PhotoImage(file="images/pce3.png")  # Updated path - using available image
 imga1=Label(f5,image=imga01)
 imga1.place(height="207.5",width="377.5",x=0,y=0)
 #frame 6
 f6=Frame(wn,bg="lightskyblue",height="670",width="547",bd=10, relief=RIDGE)
 f6.place(y=102,x=966.5)
 #1img use karna onty png
-img01=PhotoImage(file="D:\\python all programs\\python gui\\F033.png")
+img01=PhotoImage(file="images/hospitl7.png")  # Updated path - using available image
 img2=Label(f6,image=img01)
 img2.place(height="650",width="527",x=0,y=0)
 wn.mainloop()
