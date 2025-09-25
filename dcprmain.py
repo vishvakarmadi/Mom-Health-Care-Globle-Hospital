@@ -27,7 +27,7 @@ f2=Frame(wn,bg="#babdcc",height="670",width="1113",bd=10, relief=RIDGE)
 f2.place(y=102,x=1)
 img001=PhotoImage(file="images/doct2.png")
 img1=Label(f2,image=img001)
-img1.place(height="650",width="1094",x=0,y=0)
+img1.place(height="650",width="1094",x=0,y=0) 
 
 f3=Frame(wn,bg="#babdcc",height="670",width="400",bd=10, relief=RIDGE)
 f3.place(y=102,x=1115)
